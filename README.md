@@ -9,8 +9,8 @@ This series of scripts is designed to incorporate different models for the cell 
 
 03.editcgem.py makes use of the relabelled image to assign cell labels to transcripts detected at corresponding coordinates, modifying the original .bin1.gem file into .cellbin.gem. 
 
-04.cgem2cgef.py translates the tangible .cellbin.gem file (essentially a .tsv file) back to the SAW-compatible .cellbin.gef file. It requires the package ![gefpy](https://gefpy.readthedocs.io/en/main/).
+04.cgem2cgef.py translates the tangible .cellbin.gem file (essentially a .tsv file) back to the SAW-compatible .cellbin.gef file. It requires the package [gefpy](https://gefpy.readthedocs.io/en/main/).
 
-05.psc.py takes .cellbin.gef as input, performs standard analysis on the induced pseudo-single-cell/nuclei data using scanpy, and saves the processed data into seurat/scanpy-compatible .h5ad files. It requires the package ![Stereopy](https://stereopy.readthedocs.io/en/latest/). 
+05.psc.py takes .cellbin.gef as input, performs standard analysis on the induced pseudo-single-cell/nuclei data using scanpy, and saves the processed data into seurat/scanpy-compatible .h5ad files. It requires the package [Stereopy](https://stereopy.readthedocs.io/en/latest/). 
 
 ![Alt Text](workflow.png)
