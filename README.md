@@ -1,5 +1,5 @@
 # CellSegBenchmark
-This series of scripts is designed to incorporate different models for the cell segmentation module in Stereo-seq Analysis Workflow (SAW).
+This series of scripts is designed to incorporate different models for the cell segmentation module in [Stereo-seq Analysis Workflow (SAW)](https://github.com/STOmics/SAW).
 
 00.crop.py crops the original staining image into patches of desired size and overlapping. 
 
